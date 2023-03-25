@@ -1,5 +1,6 @@
-import requests from bs4 
-import BeautifulSoup
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
 
 # Define the URL of the player's profile page
 url = 'https://www.espncricinfo.com/player/virat-kohli-253802'
